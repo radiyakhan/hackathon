@@ -222,6 +222,102 @@ button:hover{
 
 @media only screen and (max-width: 600px){
   .box{
-  
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 780px;
+  }
+  .main{
+    width: auto;
+  }
+  .name h1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: auto;
+  }
+  .name h5{
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: auto;
+  }
+  .name p{
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: auto;
+    width: 450px;
+  }
+  img{
+    width: 70px;
+    height: 70px;
+    margin-left: 340px;
+    margin-bottom: 100px;
+    margin-top: -25px;
+  }
+  .info h1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 6px;
+    margin-top: 20px;
+  }
+  .info p{
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: 6px;
+    width: 200px;
+    margin-top: 45px;
+  }
+  .info{
+    gap: 270px;
+  }
+  .info h6{
+    font-weight: 300;
+    font-size: 13px;
+    margin-left:6px;
+    width: 200px;
+    margin-top: 45px;
+  }
+  .personal h1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 6px;
+    margin-top: 360px;
+  }
+  .personal h6{
+    font-weight: 300;
+    font-size: 13px;
+    margin-left:6px;
+    width: 200px;
+    margin-top: 385px;
+  }
+  .persnl{
+    gap: 275px;
+  }
+  .skill h1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 6px;
+    margin-top: 310px;
+  }
+   .contact h1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 280px;
+    margin-top: -240px;
+   }
+   .contact h6{
+    font-weight: 300;
+    font-size: 13px;
+    margin-left:280px;
+    width: 200px;
+    margin-top: -215px;
+  }
+  .skill h6{
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: 6px;
+    margin-top: 335px;
+  }
+  .btn{
+    margin-left: 280px;
   }
 }
