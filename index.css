@@ -267,7 +267,7 @@ button:hover{
     margin-top: 45px;
   }
   .info{
-    gap: 270px;
+    gap: 250px;
   }
   .info h6{
     font-weight: 300;
@@ -280,17 +280,17 @@ button:hover{
     font-weight: 600;
     font-size: 20px;
     margin-left: 6px;
-    margin-top: 390px;
+    margin-top: 380px;
   }
   .personal h6{
     font-weight: 300;
     font-size: 13px;
     margin-left:6px;
     width: 200px;
-    margin-top: 415px;
+    margin-top: 405px;
   }
   .persnl{
-    gap: 275px;
+    gap: 255px;
   }
   .skill h1{
     font-weight: 600;
@@ -301,13 +301,13 @@ button:hover{
    .contact h1{
     font-weight: 600;
     font-size: 20px;
-    margin-left: 280px;
+    margin-left: 260px;
     margin-top: -240px;
    }
    .contact h6{
     font-weight: 300;
     font-size: 13px;
-    margin-left:280px;
+    margin-left:260px;
     width: 200px;
     margin-top: -215px;
   }
