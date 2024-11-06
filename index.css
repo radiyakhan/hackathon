@@ -1,0 +1,230 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  border-color: #1a1a1a;
+  border-width: 400px;
+  align-content: center;
+  border-radius: 1px;
+  border: 1px solid black;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 900px;
+}
+.main {
+  margin-top: -40px;
+  background-color: rgba(255, 192, 203, 0.356);
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 190px;
+  width: 180px;
+  height: 180px;
+  margin-left: 700px;
+  padding: 30px;
+}
+.name h1 {
+  position: absolute;
+  width: 200px;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.name h5 {
+  position: absolute;
+  width: 170px;
+  height: 15px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+.name p {
+  position: absolute;
+  width: 700px;
+  height: 15px;
+  margin-left: 20px;
+  margin-top: 75px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: rgb(247, 90, 117);
+}
+.info p {
+  position: absolute;
+  width: 450px;
+  height: 15px;
+  margin-left: 30px;
+  margin-top: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+}
+.info {
+  display: flex;
+  gap: 570px;
+}
+.info h1 {
+  position: absolute;
+  width: 200px;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.info h6 {
+  position: absolute;
+  width: 170px;
+  height: 14px;
+  margin-left: 30px;
+  margin-top: 80px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+.personal h1 {
+  position: absolute;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 300px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.personal h6 {
+  position: absolute;
+  width: 190px;
+  height: 14px;
+  margin-left: 30px;
+  margin-top: 330px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+.persnl{
+  display: flex;
+  gap: 570px;
+}
+.skill h1 {
+  position: absolute;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 300px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.skill h6 {
+  position: absolute;
+  width: 190px;
+  height: 14px;
+  margin-left: 30px;
+  margin-top: 330px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+.contact h1 {
+  position: absolute;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.contact h6 {
+  position: absolute;
+  width: 190px;
+  height: 14px;
+  margin-left: 30px;
+  margin-top: 65px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+button{
+  display: block;
+    padding: 10px 15px;
+    background-color: rgb(247, 148, 165);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-top: 450px;
+    margin-left: 600px; */
+    margin-top: 450px;
+}
+button:hover{
+  background-color: rgb(243, 114, 136);
+}
+.btn{
+
+  margin-left: 600px;
+}
+
+@media only screen and (max-width: 600px){
+  .box{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1500px;
+  }
+}
