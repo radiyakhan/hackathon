@@ -222,9 +222,6 @@ button:hover{
 
 @media only screen and (max-width: 600px){
   .box{
-    width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 1500px;
+  
   }
 }
