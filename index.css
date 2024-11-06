@@ -226,6 +226,8 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
     height: 780px;
+    padding-left: 20px:
+    padding-right: 20px;
   }
   .main{
     width: auto;
